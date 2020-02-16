@@ -20,7 +20,6 @@ const Layout = ({ location, title, children }) => {
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
-            color: `inherit`,
           }}
           to={`/`}
         >
@@ -30,17 +29,11 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <h3
-        style={{
-          fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0,
-        }}
-      >
+      <h3>
         <Link
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
-            color: `inherit`,
           }}
           to={`/`}
         >
