@@ -58,7 +58,7 @@ const Bio = () => {
         <a href="https://www.joehartcomedy.com">funny man</a> living in London.
         You should follow him on{" "}
         <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>. Or check
-        out his <a href="https://www.joehart.co.uk">home page</a>.
+        out his <a href="https://joehart.co.uk">home page</a>.
       </p>
     </div>
   )
