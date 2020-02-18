@@ -71,6 +71,10 @@ const SEO = ({ description, lang, meta, title, image }) => {
           name: "twitter:image",
           content: image != null ? image : site.siteMetadata.image,
         },
+        {
+          name: "og:image",
+          content: image != null ? image : site.siteMetadata.image,
+        },
       ].concat(meta)}
     />
   )
