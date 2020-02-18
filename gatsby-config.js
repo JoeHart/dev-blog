@@ -4,6 +4,7 @@ module.exports = {
     author: `Joe Hart`,
     description: `A blog about software I develop`,
     siteUrl: `https://joehart.dev/`,
+    image: `/assets/profile-pic.jpg`,
     social: {
       twitter: `joehart`,
     },
